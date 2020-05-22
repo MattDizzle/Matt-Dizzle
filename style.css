@@ -1,0 +1,141 @@
+/*The Old Way*/
+/* * {
+      list-style:none;
+      margin: 0;
+} */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  list-style: none;
+  margin: 0;
+}
+
+body {
+   font-family: "Roboto", sans-sherif;
+   background-color: black;
+   /* background-image: url("http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif"); */
+
+/*Background Image with tint*/
+   /*background-image: 
+    linear-gradient(
+      rgba(59, 2, 57, 0.644),
+      rgba(6, 0, 83, 0.849)
+    ),
+    url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);
+   background-size: cover; */
+   
+   border: 1px solid white;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+}
+
+ h1, h2, p {
+   color: white;
+   
+ }
+
+ .name {
+   font-size: 50px,
+ }
+
+ .heading {
+   font-family: 'Dancing Script', cursive;
+   font-size: 40px;
+ }
+
+
+.skills, .software, .contact {
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background:  linear-gradient(
+      rgba(0, 0, 0, 0.774),
+      rgba(0, 0, 0, 0.74)
+    ), url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);  
+}
+
+.intro {
+  background-color: black;
+  opacity: 70%;
+  font-size: 0.9em;
+  padding: 10px;
+}
+
+
+img {
+  width: 40%;
+  border: 2px solid white;
+  /* border-image:  url("http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif") 20% repeat; */
+  padding: 10px;
+}
+
+ul {
+  border: 2px solid white;
+}
+
+.contact {
+  border: 2px solid white;
+}
+
+.menu {
+  display: none;
+  
+ /* background-color: gray;
+  margin-bottom: 10px;
+   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;*/
+  
+}
+
+.hamburger {
+  font-size: 3em;
+  text-align: right;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: white;
+}
+
+
+
+@media screen and (min-width: 600px) {
+  .menu {
+  background-color: gray;
+  margin-bottom: 10px;
+  display: flex;
+  opacity: 90%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+  main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+  .first, .second {
+    box-sizing: border-box;
+    width: 350px;
+    height: 300px;
+  }
+}
