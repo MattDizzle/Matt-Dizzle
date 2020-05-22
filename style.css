@@ -1,32 +1,22 @@
-/*The Old Way*/
-/* * {
-      list-style:none;
-      margin: 0;
-} */
-
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
-  list-style: none;
   margin: 0;
 }
 
 body {
    font-family: "Roboto", sans-sherif;
    background-color: black;
-   /* background-image: url("http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif"); */
-
-/*Background Image with tint*/
-   /*background-image: 
+   background-image: 
     linear-gradient(
       rgba(59, 2, 57, 0.644),
       rgba(6, 0, 83, 0.849)
     ),
-    url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);
-   background-size: cover; */
-   
+   url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);
+   background-size: cover; 
    border: 1px solid white;
    padding: 10px;
    display: flex;
@@ -35,25 +25,29 @@ body {
    text-align: center;
 }
 
- h1, h2, p {
+ h1, h2, h3, h4, p {
    color: white;
-   
+ }
+
+ h4 {
+   margin: 10px;
  }
 
  .name {
    font-size: 50px,
  }
 
- .heading {
-   font-family: 'Dancing Script', cursive;
-   font-size: 40px;
+ ol {
+  list-style-position: inside;
+  text-align: justify;
+  margin: auto;
  }
 
 
-.skills, .software, .contact {
+.skills, .software, .intro, .about {
     color: white;
-    list-style: none;
     display: flex;
+    list-style: none;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 10px;
@@ -80,23 +74,22 @@ img {
   padding: 10px;
 }
 
-ul {
-  border: 2px solid white;
+hr, p{
+  margin: 10px;
 }
 
+.intro> ul {
+  font-size: 12px;
+  color: white;
+  list-style-position: inside;
+}
 .contact {
   border: 2px solid white;
-}
+  background-color: black;
+} 
 
 .menu {
-  display: none;
-  
- /* background-color: gray;
-  margin-bottom: 10px;
-   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;*/
-  
+  display: none;  
 }
 
 .hamburger {
@@ -108,11 +101,20 @@ ul {
   color: white;
 }
 
+footer {
+  margin-top: 20px;
+}
 
 
 @media screen and (min-width: 600px) {
   .menu {
-  background-color: gray;
+    color: white;
+    list-style: none;
+    background:  linear-gradient(
+      rgba(0, 0, 0, 0.774),
+      rgba(0, 0, 0, 0.74)
+    ), url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif); 
+   border: white solid 1px;
   margin-bottom: 10px;
   display: flex;
   opacity: 90%;
