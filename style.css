@@ -25,6 +25,10 @@ body {
    text-align: center;
 }
 
+.name {
+  font-size: 50px,
+}
+
  h1, h2, h3, h4, p {
    color: white;
  }
@@ -33,16 +37,11 @@ body {
    margin: 10px;
  }
 
- .name {
-   font-size: 50px,
- }
-
  ol {
   list-style-position: inside;
   text-align: justify;
   margin: auto;
  }
-
 
 .skills, .software, .intro, .about {
     color: white;
@@ -64,7 +63,6 @@ body {
   opacity: 100%;
   padding: 10px;
 }
-
 
 img {
   width: 40%;
@@ -103,7 +101,6 @@ footer {
   margin-top: 20px;
 }
 
-
 @media screen and (min-width: 600px) {
   .menu {
     color: white;
@@ -124,7 +121,6 @@ footer {
     display: none;
   }
 }
-
 
 @media screen and (min-width: 600px) {
   main {
