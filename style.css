@@ -101,6 +101,44 @@ footer {
   margin-top: 20px;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin: 5px;
+  background:  linear-gradient(
+      rgba(0, 0, 0, 0.774),
+      rgba(0, 0, 0, 0.74)
+    ), url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);  
+  border: white solid 2px;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  color: white;
+  align-self: center;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.btn :hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.btn a {
+  color: white;
+  padding: 20px;
+}
+
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: whitesmoke; }
+a:active  { color: white;  }
+
 @media screen and (min-width: 600px) {
   .menu {
     color: white;
@@ -121,6 +159,8 @@ footer {
     display: none;
   }
 }
+
+ 
 
 @media screen and (min-width: 600px) {
   main {
