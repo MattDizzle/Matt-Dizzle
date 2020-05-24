@@ -79,11 +79,9 @@ li {
 
 img {
   width: 40%;
-  border: 2px solid rgba(255, 255, 255, 0.185);
-  /* border-image:  url("http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif") 20% repeat; */
+  border: 2px solid rgba(17, 2, 221, 0.185);
   padding: 10px;
   box-shadow: 0 8px 6px -6px black;
-  
 }
 
 hr, p{
@@ -153,6 +151,12 @@ footer {
 #cont> ol {
   display: flex;
   flex-direction: column;
+  list-style-position: inside;
+}
+
+#cont> ol> li {
+  margin: 15px;
+  width: 300px;
 }
 
 
@@ -209,7 +213,8 @@ body{
   
 }
 
+/*
 #cont> ol {
   display: flex;
   flex-direction: row;
-}
+}*/
