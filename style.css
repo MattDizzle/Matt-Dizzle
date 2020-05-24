@@ -87,6 +87,7 @@ img {
   border: 2px solid rgb(255, 255, 255);
   padding: 0px;
   box-shadow: 0 8px 10px -1px white;
+  filter: contrast(130%);
 }
 
 hr, p{
