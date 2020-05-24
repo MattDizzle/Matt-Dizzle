@@ -110,24 +110,25 @@ footer {
 
 .btn {
   display: flex;
-  margin: 5px;
+  margin: 10px;
+  padding: 10px;
   width: 200px;
-  height: 40px;
   background:  linear-gradient(
-      rgba(0, 0, 0, 0.774),
-      rgba(0, 0, 0, 0.74)
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
     ), url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);  
   border: white solid 2px;
-  align-content: center;
-  align-items: center;
   border-radius: 5px;
+  align-self: center;
+  color: white;
 }
 
 .btn:hover {
-  background-color: #4CAF50;
+  background-color: white;
   background: white;
   color: rgba(15, 0, 231, 0.849) ;
   border: rgba(15, 0, 231, 0.849) solid 3px;
+  transition: 0.3s;
 }
 
 .btn > a {
