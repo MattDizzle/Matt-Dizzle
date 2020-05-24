@@ -131,8 +131,8 @@ footer {
 
 /*NEW GLOW BUTTON STYLES*/
 .glow-on-hover {
-  width: 180px;
-  height: 50px;
+  width: 90px;
+  height: 25px;
   border: white solid 1px;
   outline: none;
   color: #fff;
@@ -140,13 +140,14 @@ footer {
   cursor: pointer;
   position: relative;
   z-index: 0;
-  border-radius: 10px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   box-shadow: 0 2px 5px -4px white;
+  font-size: 14;
 }
 
 .glow-on-hover:before {
@@ -225,6 +226,8 @@ ol {
   .hamburger {
     display: none;
   }
+
+ 
 }
 
 /*DESKTOP SCREENS*/
@@ -249,5 +252,10 @@ ol {
     font-size: 1.2em;
   }
  
+  .glow-on-hover {
+    width: 180px;
+    height: 50px;
+    font-size: 24px;
+  }
 }
 
