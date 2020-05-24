@@ -45,11 +45,11 @@ body {
    padding: 10px;
  }
 
- ol {
-  list-style-position: inside;
-  text-align: justify;
-  margin: auto;
- }
+ #contact> li {
+list-style: none;
+text-align: center;
+
+}
 
 .skills, .software, .intro, .about {
     color: white;
@@ -94,7 +94,7 @@ hr, p{
 }
 
 
-.contact {
+.contact, #contact {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -103,6 +103,7 @@ hr, p{
   background-color: black;
   box-shadow: 0 8px 6px -6px white;
   width: 100%;
+  justify-content: space-evenly;
 } 
 
 .menu {
@@ -132,7 +133,6 @@ footer {
   border-radius: 5px;
   align-self: center;
   color: white;
-  margin: 0 auto;
   vertical-align: middle;
   margin-top: 10px;
   margin-left: 10px;
@@ -167,13 +167,13 @@ main {
       rgba(0, 0, 0, 0.774),
       rgba(0, 0, 0, 0.74)
     ), url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif); 
-   border: white solid 1px;
-  margin-bottom: 10px;
-  display: flex;
-  opacity: 90%;
-  flex-direction: row;
-  justify-content: space-evenly;
-  box-shadow: 0 8px 6px -6px white;
+    border: white solid 1px;
+    margin-bottom: 10px;
+    display: flex;
+    opacity: 90%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 0 8px 6px -6px white;
   }
 
   .hamburger {
@@ -191,17 +191,26 @@ main {
 }
 
   .first, .second {
-    box-sizing: border-box;
-    width: 350px;
-    height: 300px;
+   
   }
 
   ol {
-    display: flex;
-    flex-direction: row;
+    
   }
+}
+
+.group{
+  
+}
+
+body{
+ 
 }
 
 .skills, .software, .intro, .about {
   
+}
+
+.contact {
+
 }
