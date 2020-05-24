@@ -121,44 +121,6 @@ footer {
   margin-top: 20px;
 }
 
-/* .btn {
-  padding: 10px;
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ), url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);  
-  border: white solid 2px;
-  border-radius: 5px;
-  
-  color: white;
-  vertical-align: middle;
-  margin: 40px;
-  width: 200px;
-  height: 50px;
-}
-
-.btn:hover {
-  background-color: white;
-  background: white;
-  color: rgba(15, 0, 231, 0.849) ;
-  border: rgba(15, 0, 231, 0.849) solid 3px;
-  transition: 0.3s;
-}
-
-.btn > a {
-  color: white;
-} 
-
-#cont> ol {
-  list-style-position: inside;
-}
-
-#cont> ol> li {
-  margin: 35px;
-  margin-bottom: 10px;
-  margin-left: 5px;
-  width: 300px;
-}*/
 
 /*NEW GLOW BUTTON STYLES*/
 .glow-on-hover {
