@@ -196,6 +196,7 @@ ol {
   100% { background-position: 0 0; }
 }
 
+
 /*TABLET SCREENS*/
 @media screen and (min-width: 600px) {
   .menu {
