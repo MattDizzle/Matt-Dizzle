@@ -54,7 +54,7 @@ li {
   margin: 10px;
 }
 
-.skills, .software, .intro, .about {
+.skills, .software, .intro, .about, .contact {
     color: white;
     display: flex;
     list-style: none;
@@ -97,17 +97,13 @@ hr, p{
 }
 
 
-.contact, #contact {
+.contact {
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
-  border: 2px solid white;
-  background-color: black;
   box-shadow: 0 8px 6px -6px white;
   width: 100%;
-
-  
 } 
 
 .menu {
@@ -157,11 +153,11 @@ footer {
   color: white;
 }
 
-
-main {
+#cont> ol {
   display: flex;
   flex-direction: column;
-}
+  }
+
 
 @media screen and (min-width: 600px) {
   .menu {
@@ -191,7 +187,7 @@ main {
   main {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
   .first, .second {
@@ -215,6 +211,7 @@ body{
   
 }
 
-.contact {
-
+#cont> ol {
+display: flex;
+flex-direction: row;
 }
