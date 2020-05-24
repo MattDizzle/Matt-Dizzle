@@ -218,3 +218,8 @@ body{
   display: flex;
   flex-direction: row;
 }*/
+
+#cont> ol {
+  list-style-position: inside;
+  justify-content: center;
+}
