@@ -47,7 +47,6 @@ body {
 
  #contact> li {
 list-style: none;
-margin-bottom: 50px;
 }
 
 li {
@@ -134,9 +133,7 @@ footer {
   align-self: center;
   color: white;
   vertical-align: middle;
-  margin-top: 60px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 40px;
   width: 200px;
   height: 50px;
 }
@@ -156,7 +153,8 @@ footer {
 #cont> ol {
   display: flex;
   flex-direction: column;
-  }
+}
+
 
 
 @media screen and (min-width: 600px) {
@@ -212,6 +210,6 @@ body{
 }
 
 #cont> ol {
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
