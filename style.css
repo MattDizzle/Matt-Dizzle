@@ -38,6 +38,8 @@ body {
 
  p{
    color: white;
+   padding: 10px;
+   font-size: 0.9em;
  }
 
  h4 {
@@ -51,6 +53,7 @@ list-style: none;
 
 li {
   margin: 10px;
+  font-size: 1.1em;
 }
 
 .skills, .software, .intro, .about, .contact {
@@ -231,4 +234,12 @@ ol {
     display: flex;
     flex-direction: row;
   }
+
+  p{
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+  }
+ 
 }
+
