@@ -68,7 +68,8 @@ li {
     ), url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);
     box-shadow: 0 8px 6px -6px white;
     width: 100%;
-    align-self: center;
+    align-items: center;
+    
 }
 
 .intro {
@@ -128,7 +129,7 @@ footer {
     ), url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);  
   border: white solid 2px;
   border-radius: 5px;
-  align-self: center;
+  
   color: white;
   vertical-align: middle;
   margin: 40px;
@@ -149,15 +150,16 @@ footer {
 }
 
 #cont> ol {
-  display: flex;
-  flex-direction: column;
   list-style-position: inside;
 }
 
 #cont> ol> li {
-  margin: 15px;
+  margin: 35px;
+  margin-bottom: 10px;
+  margin-left: 5px;
   width: 300px;
 }
+
 
 
 
@@ -187,39 +189,15 @@ footer {
 
 @media screen and (min-width: 900px) {
   main {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-  .first, .second {
-   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
-  ol {
-    
+  #cont> ol {
+    list-style-position: inside;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
   }
-}
-
-.group{
-  
-}
-
-body{
- 
-}
-
-.skills, .software, .intro, .about {
-  
-}
-
-/*
-#cont> ol {
-  display: flex;
-  flex-direction: row;
-}*/
-
-#cont> ol {
-  list-style-position: inside;
-  justify-content: center;
 }
