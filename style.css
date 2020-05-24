@@ -219,6 +219,7 @@ ol {
     flex-direction: row;
     justify-content: space-evenly;
     box-shadow: 0 8px 6px -6px white;
+    border-radius: 10px;
   }
 
   .hamburger {
