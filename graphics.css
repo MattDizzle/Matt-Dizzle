@@ -207,6 +207,10 @@ html {
     justify-content: space-evenly;
   
   }
+
+  .row {
+    list-style: none;
+  }
   
   /*TABLET SCREENS*/
   @media screen and (min-width: 600px) {
@@ -252,7 +256,17 @@ html {
       padding: 10px;
       font-size: 1.2em;
     }
+
+    .row {
+      width: 100%;
+      display: flex;
+      list-style: none;
+      margin: 10px;
+    }
    
+    img {
+      width: 300px;
+    }
   }
   
   
