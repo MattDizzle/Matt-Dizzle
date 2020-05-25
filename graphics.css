@@ -10,16 +10,26 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
   }
 
   img {
     width: 200px;
+    flex: 1;
+    margin: 10px;
+  }
+
+  .profile {
+    width: 100px;
+    flex: 1;
+    margin: 10px;
   }
 
 
   .row {
+    display: flex;
+    flex-direction: column;
   }
   
   /*TABLET SCREENS FOR GRAPHICS PAGE*/
@@ -28,24 +38,18 @@
   
   /*DESKTOP SCREENS FOR GRAPHICS PAGE*/
   @media screen and (min-width: 900px) {
-    main {
+       .row {
       display: flex;
       flex-direction: row;
-      justify-content: center;
-    }
-  
-    .row {
-      width: 100%;
-      display: flex;
-      justify-content: space-evenly;
+      justify-content: space-between;
       list-style: none;
-      margin: 10px;
+      margin: 30px;
+    }
+
+    img {
+      width: 300px;
     }
    
-    .row > img {
-      width: 400px;
-      margin: 10px;
-    }
   }
   
   
