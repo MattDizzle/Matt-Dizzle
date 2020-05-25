@@ -1,0 +1,20 @@
+.item {
+    color: white;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background:  linear-gradient(
+      rgba(0, 0, 0, 0.774),
+      rgba(0, 0, 0, 0.74)
+      ), url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);
+    box-shadow: 0 8px 6px -6px white;
+    width: 100%;
+    align-items: center;
+    border-radius: 15px;
+    flex: 1;
+}
+
