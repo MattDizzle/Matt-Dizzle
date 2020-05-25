@@ -1,6 +1,6 @@
 /*MOBILE SCREENS FOR GRAPHICS PAGE*/
 
-  .designs {
+  .wrapper {
     background:  linear-gradient(
       rgba(0, 0, 0, 0.774),
       rgba(0, 0, 0, 0.74)
@@ -15,17 +15,16 @@
   }
 
   img {
-    width: 100%;
+    width: 200px;
   }
 
 
   .row {
-    list-style: none;
   }
   
   /*TABLET SCREENS FOR GRAPHICS PAGE*/
   @media screen and (min-width: 600px) {
-    
+  }
   
   /*DESKTOP SCREENS FOR GRAPHICS PAGE*/
   @media screen and (min-width: 900px) {
@@ -43,13 +42,9 @@
       margin: 10px;
     }
    
-    img {
-      width: 300px;
+    .row > img {
+      width: 400px;
       margin: 10px;
-    }
-
-    .designs {
-      
     }
   }
   
