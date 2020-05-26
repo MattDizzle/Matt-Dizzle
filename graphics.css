@@ -15,7 +15,7 @@
   }
 
   img {
-    width: 80%;
+    width: 200px;
     flex: 1;
     margin: 20px;
     flex-grow: initial;
