@@ -18,10 +18,23 @@
     flex: 1;
 }
 
-@media screen and (min-width: 900px) {
+.test, .view {
+  margin: 10px;
+  width: 150px;
+  flex-grow: 2;
+}
+
+
+@media screen and (min-width: 800px) {
     p {
     padding-left: 25%;
     padding-right: 25%;
+    }
+
+    .test, .view {
+      margin: 10px;
+      width: 300px;
+      flex-grow: 2;
     }
 }
 
