@@ -33,6 +33,10 @@
     display: flex;
     flex-direction: column;
   }
+
+  .scrnshot {
+    margin-top: 10px;
+  }
   
   /*TABLET SCREENS FOR GRAPHICS PAGE*/
   @media screen and (min-width: 600px) {
@@ -52,7 +56,6 @@
     img {
       width: 300px;
     }
-   
   }
   
   
