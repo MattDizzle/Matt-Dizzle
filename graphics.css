@@ -5,7 +5,7 @@
       rgba(0, 0, 0, 0.774),
       rgba(0, 0, 0, 0.74)
       ), url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);
-    box-shadow: 0 8px 6px -6px white;
+    box-shadow: 0 1px 1px -6px white;
     border-radius: 15px;
     width: 100%;
     display: flex;
@@ -15,9 +15,11 @@
   }
 
   img {
-    width: 200px;
+    width: 80%;
     flex: 1;
-    margin: 10px;
+    margin: 20px;
+    flex-grow: initial;
+    align-self: center;
   }
 
   .profile {
@@ -44,6 +46,7 @@
       justify-content: space-between;
       list-style: none;
       margin: 30px;
+      flex-wrap: wrap;
     }
 
     img {
