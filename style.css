@@ -73,7 +73,6 @@ li {
     rgba(0, 0, 0, 0.74)
     ), url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);
   box-shadow: 0 8px 6px -6px white;
-  align-items: center;
   border-radius: 15px;
   flex: 1;
 }
@@ -99,8 +98,11 @@ hr, p{
 
 ul {
   color: white;
-  list-style-position: inside;
+  /* list-style-position: inside; */
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 
