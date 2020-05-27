@@ -17,15 +17,10 @@ body {
     ),
    url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);
   background-size: cover; 
-  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
-  border-radius: 15px;
 }
 
 .name {
@@ -34,7 +29,7 @@ body {
 
 h1, h2, h3, h4 {
   color: white;
-  margin: 10px;
+  margin: 3px;
   font-size: 1.5em;
 }
 
@@ -42,7 +37,7 @@ h1, h2, h3, h4 {
 p{
   color: white;
   padding: 10px;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 h4 {
@@ -50,14 +45,12 @@ h4 {
   padding: 5px;
 }
 
-#contact> li {
-  list-style: none;
+li {
+  font-size: 1em;
+  margin-top: 10px;
 }
 
-li {
-  margin: 10px;
-  font-size: 1.1em;
-}
+
 
 
 
@@ -65,7 +58,8 @@ li {
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
   margin: 10px;
   padding: 20px;
   background:  linear-gradient(
@@ -75,6 +69,7 @@ li {
   box-shadow: 0 8px 6px -6px white;
   border-radius: 15px;
   flex: 1;
+  
 }
 
 .intro {
@@ -96,13 +91,15 @@ hr, p{
   margin: 10px;
 }
 
-ul {
+ul, ol {
   color: white;
   /* list-style-position: inside; */
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  flex-grow: 1;
+  margin: 10px;
+
 }
 
 
@@ -324,20 +321,22 @@ main {
   #cont> ol {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
   }
 
-  p{
+  p {
     color: white;
-    padding: 10px;
-    font-size: 1.2em;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 1.4em;
   }
  
   .glow-on-hover {
     width: 180px;
     height: 50px;
     font-size: 24px;
+    margin: 20px;
   }
 
   .group-one {
@@ -357,6 +356,11 @@ main {
     width: 100%;
     height: 100%;
     justify-content: space-evenly;
+  }
+
+  .contact-box {
+    width: 80%;
+    align-self: center;
   }
 
 
