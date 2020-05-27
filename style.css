@@ -59,7 +59,7 @@ li {
   font-size: 1.1em;
 }
 
-.skills, .software, .intro, .about, .contact {
+.skills, .item, .contact {
   color: white;
   display: flex;
   list-style: none;
@@ -107,9 +107,10 @@ hr, p{
   margin: 10px;
 }
 
-.intro> ul {
+ul {
   color: white;
   list-style-position: inside;
+  list-style: none;
 }
 
 
@@ -156,18 +157,14 @@ main {
   align-items: center;
   box-shadow: 0 8px 6px -6px white;
   width: 100%;
+  flex-grow: 2;
 } 
 
 .sub-item {
-  width: 100%;
-  margin: 20px;
-  align-items: center;
-  justify-content: center;
-  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
 }
-
-
-
 
 
 /*NEW GLOW BUTTON STYLES*/
@@ -322,7 +319,6 @@ ol {
     display: none;
   }
 
- 
 }
 
 /*DESKTOP SCREENS*/
@@ -351,5 +347,7 @@ ol {
     height: 50px;
     font-size: 24px;
   }
+
+  
 }
 
