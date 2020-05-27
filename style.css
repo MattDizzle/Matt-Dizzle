@@ -143,6 +143,12 @@ main {
   height: 100%;
 }
 
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #6868ff;
+}
+
 
 /*NEW GLOW BUTTON STYLES*/
 .glow-on-hover {
