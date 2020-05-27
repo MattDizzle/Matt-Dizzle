@@ -46,8 +46,8 @@ p{
 }
 
 h4 {
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
 }
 
 #contact> li {
@@ -59,33 +59,23 @@ li {
   font-size: 1.1em;
 }
 
-.skills, .item, .contact {
+
+
+.item {
   color: white;
   display: flex;
-  list-style: none;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  padding: 10px;
+  margin: 10px;
+  padding: 20px;
   background:  linear-gradient(
     rgba(0, 0, 0, 0.774),
     rgba(0, 0, 0, 0.74)
     ), url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);
   box-shadow: 0 8px 6px -6px white;
-  width: 100%;
   align-items: center;
   border-radius: 15px;
   flex: 1;
-}
-
-.skills, .software {
-  height: 97.5%;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  padding: 10px;
-  flex: 1;
-
 }
 
 .intro {
@@ -150,22 +140,25 @@ main {
   color: #6868ff;
 }
 
-.item {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  box-shadow: 0 8px 6px -6px white;
-  width: 100%;
-  flex-grow: 2;
-} 
 
 .sub-item {
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
+  padding: 20px;
 }
 
+#submitbtn {
+  width: 100%;
+}
+
+.contact-box {
+  background-color: #08197a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
 
 /*NEW GLOW BUTTON STYLES*/
 .glow-on-hover {
@@ -229,9 +222,6 @@ main {
   border-radius: 10px;
 }
 
-ol {
-  margin: 10px;
-}
 
 @keyframes glowing {
   0% { background-position: 0 0; }
@@ -325,15 +315,15 @@ ol {
 @media screen and (min-width: 900px) {
   main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
   }
 
   #cont> ol {
-    list-style-position: inside;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    list-style: none;
   }
 
   p{
@@ -347,6 +337,28 @@ ol {
     height: 50px;
     font-size: 24px;
   }
+
+  .group-one {
+    display: flex;
+    flex-direction: column;
+    flex: 2
+  }
+
+  .group-two {
+    display: flex;
+    flex-direction: row;
+    flex:1;
+  }
+
+  main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+  }
+
+
+
 
   
 }
