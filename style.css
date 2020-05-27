@@ -149,6 +149,26 @@ main {
   color: #6868ff;
 }
 
+.item {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  box-shadow: 0 8px 6px -6px white;
+  width: 100%;
+} 
+
+.sub-item {
+  width: 100%;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+
+
+
 
 /*NEW GLOW BUTTON STYLES*/
 .glow-on-hover {
