@@ -149,6 +149,7 @@ main {
 
 #submitbtn {
   width: 100%;
+  z-index: 1;
 }
 
 .contact-box {
@@ -156,6 +157,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
 }
 
