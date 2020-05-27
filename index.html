@@ -14,13 +14,13 @@
 
 <body>
 <!--   ------SLIDE OUT MENU-----   -->
-  <div id="mySidebar" class="sidebar">
+  <section id="mySidebar" class="sidebar">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
     <a href="index.html" >Home</a>
     <a href="graphics.html" >Graphics</a>
     <a href="videos.html" >Videos</a>
     <a href="coding.html" >Coding</a>
-  </div>
+  </section>
   
   <div id="box">
     <button class="openbtn hamburger" onclick="openNav()">☰</button>
@@ -39,9 +39,11 @@
       </ul>
       </nav>
   </header>
+
 <main>
 <!--   ------INTRO-----   -->
-<section class= "group">
+
+<div class= "group-one">
   <section class= "item">
     <h2> Introduction</h2>
     <p>My name is Matthew and I live in Rialto, California. I'm an aspiring full stack web developer. I love music, basketball, learning and computers. This website contains my portfolio.</p>
@@ -53,7 +55,8 @@
       </ul>
     <p>Check out my website and <a href="#cont" class="link">Contact Me!</a></p>
   </section>
-<hr>
+
+  <hr>
 <!--   ------ABOUT ME-----   -->
   <section class= "item">
     <h2 >About me</h2>
@@ -64,9 +67,11 @@
     <p>If you're looking to hire a new developer (or are looking for a partner for a hackathon) please reach out! I am so excited to work with other developers to build great software. I already have some world changing ideas that I am eager to implement. </p>
       </section>
 </div>
+
 <hr>
 
 <!--   ------SKILLS-----   -->
+<section class= "group-two">
 <section class = "item">
   <ul>
     <h3 class = "heading">Skills</h3>
@@ -75,47 +80,27 @@
      <li>JavaScript</li>
      <li>jQuery</li>
      <li>Graphic Design</li>
-     <li>Git</li>
      <li>Video Editing</li>
      <li>Node.js</li>
-     <li>React</li>
-     <li>Logistics</li>
-     <li>Shipping</li>
-     <li>Forklift Operation</li>
-     <li>Audio Production</li>
+     
   </ul>
 </section>
-<hr>
 
-<!--   ------SOFTWARE-----   -->
-<section class = "item">
-<ul>
-<h3 class = "heading">Software</h3>
-     <li>Adobe Photoshop</li>
-     <li>Sony Vegas</li>
-     <li>Adobe After Affects</li>
-     <li>Adobe After Premiere</li>
-     <li>Adobe Acrobat Pro</li>
-     <li>Git Bash</li>
-     <li>GitHub</li>
-     <li>Visual Studio Code</li>
-     <li>Sony Vegas Pro</li>
-     <li>Warehouse Management Software</li>
-     <li>Cloud Based Applications</li>
- </ul>
-</section>
 
 <!--   ------Services-----   -->
 <section class = "item">
+<h3 class = "heading">Services</h3>
   <ul>
-  <h3 class = "heading">Services</h3>
-       <li>Front-end Software Engineer</li>
-       <li>Back-end Software Engineer</li>
-       <li>Full Stack Software Engineer</li>
-       <li>UX Desinger</li>
-   </ul>
-  </section>
+    <li>Front-end Software Engineer</li>
+    <li>Back-end Software Engineer</li>
+    <li>Full Stack Software Engineer</li>
+    <li>UX Desinger</li>
+ </ul>
+</section>
+</section>
 </main>
+
+<hr>
 
 <!--   ------CONTACT-----   -->
 <section class="item" id= "cont">
@@ -127,8 +112,12 @@
       </ol>
 </section>
 
+<hr>
+
 <!--   ------CONTACT BOX-----   -->
-<section class="item" id= "cont">
+<section class="item">
+  <div class= "contact-box">
+    <h4>Contact Me Here</h4>
     <form action="#" method="POST">
     <div class= "sub-item">
     <label for="user-name">Name:</label>
@@ -143,9 +132,11 @@
     <label for="user-message">Message:</label>
     <textarea id="user-message" name="message"></textarea>
     </div>
-    <button type="submit" class= "glow-on-hover">Submit</button>
+    <button type="submit" class= "glow-on-hover" id="submitbtn" role="button">Submit</button>
   </form>
+  </div>
 </section> 
+
   
   <footer>© 2020 Matt Dizzle</footer>
 </body>
