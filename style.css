@@ -12,8 +12,8 @@ body {
   background-color: black;
   background-image: 
     linear-gradient(
-      rgba(59, 2, 57, 0.644),
-      rgba(6, 0, 83, 0.849)
+      #3b0239a4,
+      #060053d8
     ),
    url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);
   background-size: cover; 
@@ -33,7 +33,6 @@ h1, h2, h3, h4, h5 {
   font-size: 1.5em;
 }
 
-
 p{
   color: white;
   padding: 10px;
@@ -49,7 +48,6 @@ h5 {
   padding: 0;
   padding-left: 5px;
 }
-
 
 li {
   font-size: 1em;
@@ -71,7 +69,6 @@ li {
   box-shadow: 0 8px 6px -6px white;
   border-radius: 15px;
   flex: 1;
-  
 }
 
 .intro {
@@ -103,7 +100,6 @@ ul, ol {
   margin: 10px;
 
 }
-
 
 .contact {
   display: flex;
@@ -152,13 +148,25 @@ main {
 
 
 form {
-  background-color: #08197a;
-  opacity: 0.8;
+  background-color: #06135f;
+  opacity: 0.9;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 10%;
+
+  background:  linear-gradient(
+    #3b0239a4,
+    #060053d8
+    ), url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);
+    box-shadow: 0px 0px 20px 2px white;
+  border-radius: 15px;
+  flex: 1;
+}
+
+#submitbtn {
+  margin-bottom: 20px;
 }
 
 
