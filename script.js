@@ -1,3 +1,5 @@
+'use strict';
+
 function openNav() {
     document.getElementById("mySidebar").style.width = "250px";
     document.getElementById("box").style.marginLeft = "250px";
