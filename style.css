@@ -381,6 +381,11 @@ form {
     align-self: center;
   }
 
+  iframe {
+    width: 600px;
+    height: 300px;
+  }
+
   
 }
 
