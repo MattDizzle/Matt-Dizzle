@@ -35,6 +35,10 @@ h1, h2, h3, h4, h5 {
 
 }
 
+#contact-form-title {
+  padding-bottom: 30px;
+}
+
 p{
   color: white;
   padding: 10px;
@@ -375,6 +379,7 @@ form {
     width: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     
   }
 
