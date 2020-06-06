@@ -334,7 +334,7 @@ form {
 }
 
 /*DESKTOP SCREENS*/
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
   main {
     display: flex;
     flex-direction: column;
@@ -378,13 +378,41 @@ form {
 
   .contact-box {
     width: 80%;
-    align-self: center;
+    /* align-self: center; */
+    display: flex;
+    flex-direction: column;
+    
   }
 
   iframe {
     width: 600px;
     height: 300px;
   }
+
+  form {
+    width: 400px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  #user-message, #user-email, #user-name, #submitbtn {
+    width: 100%;
+    margin: 0;
+  }
+
+  #submitbtn {
+    margin: 20px;
+    width: 90%;
+  }
+
+
+
+
+
+
 
   
 }
