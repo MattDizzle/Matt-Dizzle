@@ -14,19 +14,19 @@
     align-items: center;
   }
 
-  img {
-    width: 200px;
+  .design {
+    width: 100%;
     flex: 1;
     margin: 20px;
     flex-grow: initial;
     align-self: center;
   }
 
-  .profile {
+  /* .profile {
     width: 100px;
     flex: 1;
     margin: 10px;
-  }
+  } */
 
 
   .row {
@@ -53,8 +53,13 @@
       flex-wrap: wrap;
     }
 
-    img {
+    /* img {
       width: 300px;
+    } */
+
+    .design{
+      width: 30%;
+      margin: 5px;
     }
   }
   
