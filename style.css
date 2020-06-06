@@ -31,6 +31,8 @@ h1, h2, h3, h4, h5 {
   color: white;
   margin: 10px;
   font-size: 2em;
+  font-family: 'Metal Mania','Orbitron', Impact;
+
 }
 
 p{
@@ -79,6 +81,10 @@ img {
   padding: 0px;
   box-shadow: 0px 0px 20px 2px white;
   filter: contrast(130%);
+}
+
+.scrnshot{
+  margin: 20px;
 }
 
 hr, p{
@@ -293,7 +299,7 @@ form {
 }
 
 /*TABLET SCREENS*/
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 800px) {
   .menu {
     color: white;
     list-style: none;
@@ -323,7 +329,7 @@ form {
 }
 
 /*DESKTOP SCREENS*/
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1000px) {
   main {
     display: flex;
     flex-direction: column;
@@ -394,6 +400,10 @@ form {
   #submitbtn {
     margin: 20px;
     width: 90%;
+  }
+
+  h1{
+    font-size: 5em;
   }
 
 }
