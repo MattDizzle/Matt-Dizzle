@@ -1,91 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>Coding</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" /> 
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="coding.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-	 crossorigin="anonymous">
-   <script src="script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <script src="script.js"></script>
   </head>
 
-<body>
+  <body>
+    <!--SLIDE OUT MENU-->
+    <section id="mySidebar" class="sidebar">
+      <h5>Menu</h5>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="https://mattdizzle.github.io/Matt-Dizzle/">Home</a>
+      <a href="graphics.html">Graphics</a>
+      <a href="videos.html">Videos</a>
+      <a href="coding.html">Coding</a>
+    </section>
 
-<!--SLIDE OUT MENU-->
-<section id="mySidebar" class="sidebar">
-  <h5>Menu</h5>
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <a href="https://mattdizzle.github.io/Matt-Dizzle/" >Home</a>
-  <a href="graphics.html" >Graphics</a>
-  <a href="videos.html" >Videos</a>
-  <a href="coding.html" >Coding</a>
-  </section>
-  
-  <div id="box">
-    <button class="openbtn hamburger" onclick="openNav()">☰</button>
-  </div>
-<!--HEADER-->
-<header>
-  <h1 class = "name" >Matt Dizzle</h1>
-  <img src="images/desktop-12.jpg" alt="picture of space">     
-    
+    <div id="box">
+      <button class="openbtn hamburger" onclick="openNav()">☰</button>
+    </div>
+    <!--HEADER-->
+    <header>
+      <h1 class="name">Matt Dizzle</h1>
+      <img src="images/desktop-12.jpg" alt="picture of space" />
+
       <nav class="navbar">
-      <ul class="menu">
-        <li><a href="https://mattdizzle.github.io/Matt-Dizzle/" class= "glow-on-hover">Home</a></li>
-        <li><a href="graphics.html" class= "glow-on-hover">Graphics</a></li>
-        <li><a href="videos.html" class= "glow-on-hover">Videos</a></li>
-        <li><a href="coding.html" class= "glow-on-hover">Coding</a></li>
-      </ul>
+        <ul class="menu">
+          <li>
+            <a
+              href="https://mattdizzle.github.io/Matt-Dizzle/"
+              class="glow-on-hover"
+              >Home</a
+            >
+          </li>
+          <li><a href="graphics.html" class="glow-on-hover">Graphics</a></li>
+          <li><a href="videos.html" class="glow-on-hover">Videos</a></li>
+          <li><a href="coding.html" class="glow-on-hover">Coding</a></li>
+        </ul>
       </nav>
-</header>
-    
-<!--MAIN CONTENT FOR CODING PAGE-->
-<main>
-<section class= "item">
-<img src= "images/matt-dizzle-piano-screenshot.png" alt="picture of Matt Dizzle piano app" class= "scrnshot">
-<h2>Piano</h2>
-<a  href="https://mattdizzle.github.io/matt-dizzle-piano/" class= "glow-on-hover test" target="blank">Test</a>
-<a  href="https://github.com/MattDizzle/matt-dizzle-piano" class= "glow-on-hover view" target="blank">View Code</a>
-<p>I started off with a tutorial and then customized it.
-  This is my first project to help me understand coding basics.
-  I used HTML5, CSS and Javascript to create this digital piano.
-  I made this for anyone who likes music especially the piano.</p>
-  <hr>
- <p>Click the Test button to check out my piano project. 
-</p>
-</section>
+    </header>
 
-<section class= "item">
-  <img src= "screenshots/screencapture2.png" alt="picture of Matt Dizzle Quiz App" class= "scrnshot">
-  <h2>Quiz App</h2>
-  <a  href="https://thinkful-ei-panda.github.io/quiz-app-mattr/" class= "glow-on-hover test" target="blank">Test</a>
-  <a  href="https://github.com/thinkful-ei-panda/quiz-app-mattr" class= "glow-on-hover view" target="blank">View Code</a>
-  <p>This is one of my first projects from the Thinkful Coding Bootcamp.
-    I made this App for people to enjoy. I used a few movie questions to
-    dynamically render html and get familiar with implementing the jQuery 
-    Javascript Library. I also used HTML5 and CSS to create this.
-  </p>
-    <hr>
-   <p>Click the Test button to check out my Quiz App Project. 
-  </p>
-  </section>
-</main>
+    <!--MAIN CONTENT FOR CODING PAGE-->
+    <main>
+      <section class="item">
+        <img
+          src="images/matt-dizzle-piano-screenshot.png"
+          alt="picture of Matt Dizzle piano app"
+          class="scrnshot"
+        />
+        <h2>Piano</h2>
+        <a
+          href="https://mattdizzle.github.io/matt-dizzle-piano/"
+          class="glow-on-hover test"
+          target="blank"
+          >Test</a
+        >
+        <a
+          href="https://github.com/MattDizzle/matt-dizzle-piano"
+          class="glow-on-hover view"
+          target="blank"
+          >View Code</a
+        >
+        <p>
+          I started off with a tutorial and then customized it. This is my first
+          project to help me understand coding basics. I used HTML5, CSS and
+          Javascript to create this digital piano. I made this for anyone who
+          likes music especially the piano.
+        </p>
+        <hr />
+        <p>Click the Test button to check out my piano project.</p>
+      </section>
 
-<!--CONTACT-->
-  <section class="item" id= "cont">
-    <h4 class = "header">Contact Info</h4>
-    <ol>
-      <li><a  href="https://www.linkedin.com/in/matt-dizzle/" class= "glow-on-hover" target="blank">LinkedIn</a></li>
-      <li><a  href="https://github.com/MattDizzle" class= "glow-on-hover" target="blank">GitHub</a></li>
-      <li><a  href="mailto:MatthewRougelySr@gmail.com" class= "glow-on-hover" target="blank">Email</a></li>
-    </ol>
+      <section class="item">
+        <img
+          src="screenshots/screencapture2.png"
+          alt="picture of Matt Dizzle Quiz App"
+          class="scrnshot"
+        />
+        <h2>Quiz App</h2>
+        <a
+          href="https://thinkful-ei-panda.github.io/quiz-app-mattr/"
+          class="glow-on-hover test"
+          target="blank"
+          >Test</a
+        >
+        <a
+          href="https://github.com/thinkful-ei-panda/quiz-app-mattr"
+          class="glow-on-hover view"
+          target="blank"
+          >View Code</a
+        >
+        <p>
+          This is one of my first projects from the Thinkful Coding Bootcamp. I
+          made this App for people to enjoy. I used a few movie questions to
+          dynamically render html and get familiar with implementing the jQuery
+          Javascript Library. I also used HTML5 and CSS to create this.
+        </p>
+        <hr />
+        <p>Click the Test button to check out my Quiz App Project.</p>
+      </section>
+
+      <section class="item">
+        <img
+          src="screenshots/bookmarks.jpg"
+          alt="picture of Matt Dizzle Quiz App"
+          class="scrnshot"
+        />
+        <h2>Bookmark App</h2>
+        <a
+          href="https://github.com/thinkful-ei-panda/mattr-bookmarks-app"
+          class="glow-on-hover test"
+          target="blank"
+          >Test</a
+        >
+        <a
+          href="https://thinkful-ei-panda.github.io/mattr-bookmarks-app/"
+          class="glow-on-hover view"
+          target="blank"
+          >View Code</a
+        >
+        <p>
+          This project was a bit trickier because the app uses an api to store
+          the bookmarks. I made this so users can create and delete websites
+          that they like. I used HTML5, CSS, Javascript and jQuery create this
+          app.
+        </p>
+        <hr />
+        <p>Click the Test button to check out my Bookmark App Project.</p>
+      </section>
+
+      <section class="item">
+        <img
+          src="screenshots/MVP-Elections.png"
+          alt="picture of Matt Dizzle Quiz App"
+          class="scrnshot"
+        />
+        <h2>My Poll Data</h2>
+        <a
+          href="https://my-poll-data.mattdizzle.vercel.app/Home"
+          class="glow-on-hover test"
+          target="blank"
+          >Test</a
+        >
+        <a
+          href="https://github.com/MattDizzle/mattr-capstone1-server"
+          class="glow-on-hover view"
+          target="blank"
+          >View Code</a
+        >
+        <p>
+          This project was a bit trickier because the app uses an api to store
+          the bookmarks. I made this so users can create and delete websites
+          that they like. I used PostgreSQL, React, Express, Node.js, HTML5,
+          CSS, Javascript and jQuery create this app.
+        </p>
+        <hr />
+        <p>Click the Test button to check out my Bookmark App Project.</p>
+      </section>
+    </main>
+
+    <!--CONTACT-->
+    <section class="item" id="cont">
+      <h4 class="header">Contact Info</h4>
+      <ol>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/matt-dizzle/"
+            class="glow-on-hover"
+            target="blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/MattDizzle"
+            class="glow-on-hover"
+            target="blank"
+            >GitHub</a
+          >
+        </li>
+        <li>
+          <a
+            href="mailto:MatthewRougelySr@gmail.com"
+            class="glow-on-hover"
+            target="blank"
+            >Email</a
+          >
+        </li>
+      </ol>
       <footer>© 2020 Matt Dizzle</footer>
-  </section>
-</body>
+    </section>
+  </body>
 </html>
