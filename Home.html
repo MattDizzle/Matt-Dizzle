@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="https://github.com/MattDizzle/favicon-host/blob/master/matt-dizzle-dev-logo.png?raw=true" />
+    <title> Matt Dizzle </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+	 crossorigin="anonymous">
+   <script src="script.js"></script>
+  </head>
+
+<body>
+<!--SLIDE OUT MENU-->
+  <section id="mySidebar" class="sidebar">
+    <h5>Menu</h5>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="https://matt-dizzle.vercel.app/" >Home</a>
+    <a href="graphics.html" >Graphics</a>
+    <a href="videos.html" >Videos</a>
+    <a href="coding.html" >Coding</a>
+  </section>
+  
+  <div id="box">
+    <button class="openbtn hamburger" onclick="openNav()">☰</button>
+  </div>
+
+<!--HEADER-->
+  <header>
+    <div class="landing">
+    <h1 class = "name" >Matt Dizzle</h1>
+    <a href="#nav" class= "glow-on-hover" id="enter" >Enter</a>
+  </div>
+    
+      <nav class="navbar" id='nav'>
+      <ul class="menu">
+        <li><a href="https://matt-dizzle.vercel.app/" class= "glow-on-hover"> Home </a></li>
+        <li><a href="graphics.html" class= "glow-on-hover"> Graphics </a></li>
+        <li><a href="videos.html" class= "glow-on-hover" > Videos </a></li>
+        <li><a href="coding.html" class= "glow-on-hover"> Coding </a></li>
+      </ul>
+      </nav>
+  </header>
+
+<main>
+<!--INTRO-->
+
+<div class= "group-one">
+  <section class= "item">
+    <h2> Introduction</h2>
+    <p>My name is Matthew and I live in Rialto, California. I'm an aspiring full stack web developer. 
+      I love music, basketball, learning and computers. This website contains my portfolio.</p>
+    <p>As a former graphic designer, I'm interested in:</p>
+      <ul>
+        <li>Pushing the limits of web design.</li>
+        <li>Writing lean code that can keep up with today's technology.</li>
+        <li>Talking to other tech enthusiasts about new technology.</li>
+        <li>I can't wait to work with a great group of people!</li>
+      </ul>
+    <p>Check out my website and <a href="#cont" class="link">Contact Me!</a></p>
+  </section>
+
+  <hr>
+<!--ABOUT ME-->
+<section class= "item">
+    <h2 >About me</h2>
+    <p>After graduating college, I became a freelance graphic designer and videographer. I love to create things with computers. I believe I'm a natural fit for computer programming.</p>
+    <p>As a student at <a href="http://thinkful.com" class="link" target="blank">Thinkful</a>, I've begun my journey to becoming a software developer and couldn't be happier! I love to know how everything works so this is the logical next step in my life. </p>
+    <p>If you're looking to hire a new developer (or are looking for a partner for a hackathon) please reach out! I am so excited to work with other developers to build great software. I already have some world changing ideas that I am eager to implement. </p>
+  </section>
+</div>
+
+<hr>
+
+<!--SKILLS-->
+<div class= "group-two">
+<section class = "item">
+  <h3 class = "heading">Skills</h3>
+    <ul id= "skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>jQuery</li>
+      <li>Graphic Design</li>
+      <li>Video Editing</li>
+      <li>Node.js</li>
+  </ul>
+</section>
+
+
+<!--Services-->
+<section class = "item">
+<h3 class = "heading">Services</h3>
+  <ul id= "services">
+    <li>Front-end Software Engineer</li>
+    <li>Back-end Software Engineer</li>
+    <li>Full Stack Software Engineer</li>
+    <li>UX Designer</li>
+ </ul>
+</section>
+</div>
+</main>
+
+<hr>
+
+<!-- CONTACT -->
+<section class="item" id= "cont">
+    <h4 class = "header">Contact Info</h4>
+      <ol>
+        <li><a  href="https://www.linkedin.com/in/matt-dizzle/" class= "glow-on-hover" target="blank"> LinkedIn </a></li>
+        <li><a  href="https://github.com/MattDizzle" class= "glow-on-hover" target="blank"> GitHub </a></li>
+        <li><a  href="mailto:MatthewRougelySr@gmail.com" class= "glow-on-hover" target="blank"> Email </a></li>
+      </ol>
+</section>
+
+<hr>
+
+<!--CONTACT BOX-->
+<section class="item">
+  <div class= "contact-box">
+    <h4 id= "#contact-form-title">Contact Me Here</h4>
+    <form action="https://formspree.io/mvowkwae" method="POST">
+    <div class= "sub-item">
+    <label for="user-name">Name:</label>
+    <input id="user-name" type="text" name="name">
+    </div>
+
+    <div class= "sub-item">
+    <label for="user-email">Email:</label>
+    <input id="user-email" type="text" name="email">
+    </div>
+    <div class= "sub-item">
+    <label for="user-message">Message:</label>
+    <textarea id="user-message" name="message"></textarea>
+    </div>
+    <button type="submit" class= "glow-on-hover" id="submitbtn">Submit</button>
+  </form>
+  </div>
+</section> 
+
+  
+  <footer>© 2020 Matt Dizzle</footer>
+</body>
+</html>
