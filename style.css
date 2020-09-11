@@ -25,6 +25,21 @@ body {
   font-size: 7em;
 }
 
+.v-header{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.479);
+}
+
+.container {
+  max-width: 1080px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
 h1, h2, h3, h4, h5 {
   color: white;
   margin: 10px;
