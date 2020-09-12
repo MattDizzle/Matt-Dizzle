@@ -34,12 +34,19 @@ body {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1080px;
   padding-left: 1rem;
   padding-right: 1rem;
   margin: auto;
   text-align: center;
   overflow: hidden;
+}
+
+@media(max-width:1080px){
+  .container {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
 }
 
 .fullscreen-video-wrap {
