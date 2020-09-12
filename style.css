@@ -49,7 +49,7 @@ body {
   overflow: hidden;
 }
 
-.fullscreen-video-wrap video {
+.fullscreen-video-wrap iframe {
   min-width: 100%;
   min-height: 100% ;
 }
@@ -71,6 +71,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+iframe {
+  width: 100vh;
+  height: 100vh;
 }
 
 h1, h2, h3, h4, h5 {
