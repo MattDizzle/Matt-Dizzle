@@ -1,0 +1,24 @@
+.intro {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.half {
+    width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .intro, .about-me {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5vh;
+    }
+    
+    .half {
+        width: 49%;
+        height: 45vh;
+
+    }
+
+}
