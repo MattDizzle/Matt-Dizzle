@@ -1,9 +1,9 @@
   /*MOBILE SCREENS FOR VIDEO PAGE*/
   .video-box {
-    width: 300px;
+    width: 100%;
     height: 100%;
     margin-bottom: 20px;
-    
+    font-size: 0.7rem;
   }
 
   main {
@@ -19,23 +19,18 @@
     padding-bottom: 10px;
   }
 
-/* 
-  /*TABLET SCREENS FOR VIDEO PAGE*/
-  @media screen and (min-width: 600px) {
-  }
   
   /*DESKTOP SCREENS FOR VIDEO PAGE*/
   @media screen and (min-width: 900px) {
     main {
       display: flex;
-      flex-direction: center;
-      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
 
     .video-box {
-      width: 600px;
+      width: 48%;
       height: 100%;
       margin-bottom: 20px;
-      
     }
   } */
