@@ -8,6 +8,18 @@
     height: 100%;
     padding: 10px;
     margin-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.half > a {
+    align-self: center;
+}
+
+.half > p {
+    align-self: center;
+    text-align: center;
+    width: 100%;
 }
 
 
@@ -17,17 +29,33 @@
         display: flex;
         flex-direction: row;
         margin-top: 1vh;
-        background: rgb(240, 248, 255);
+    }
+
+    .contact-wrapper {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3vh;
     }
     
     .half {
         width: 49%;
         height: 40vh;
+        display: flex;
+        flex-direction: column;
         justify-self: center;
         align-self: center;
         margin: 10px;
         padding: 0px;
+    }
 
+    .half > a {
+        align-self: center;
+    }
+
+    .half > p {
+        align-self: center;
+        text-align: center;
+        width: 100%;
     }
 
     .reverse {

@@ -153,10 +153,10 @@
     </main>
 
     <!-- CONTACT -->
-    <section class="item" id="cont">
-      <h4 class="header">Contact Info</h4>
-      <ol>
-        <li>
+    <footer class="contact-wrapper">
+
+    <section class="half" id="cont">
+      <h4>Contact Info</h4>
           <a
             href="https://www.linkedin.com/in/matt-dizzle/"
             class="glow-on-hover"
@@ -164,8 +164,7 @@
           >
             LinkedIn
           </a>
-        </li>
-        <li>
+       
           <a
             href="https://github.com/MattDizzle"
             class="glow-on-hover"
@@ -173,8 +172,7 @@
           >
             GitHub
           </a>
-        </li>
-        <li>
+        
           <a
             href="mailto:MatthewRougelySr@gmail.com"
             class="glow-on-hover"
@@ -182,35 +180,33 @@
           >
             Email
           </a>
-        </li>
-      </ol>
+          <p>© 2020 Matt Dizzle Dev</p>
     </section>
 
-    <!--CONTACT BOX-->
-    <section class="item">
-      <div class="contact-box">
-        <h4 id="#contact-form-title">Let's Connect</h4>
+    <!--CONTACT FORM-->
+    <section class="half" >
+
+        <h4>Let's Connect</h4>
+        
         <form action="https://formspree.io/mvowkwae" method="POST">
-          <div class="sub-item">
-            <label for="user-name">Name:</label>
-            <input id="user-name" type="text" name="name" />
-          </div>
 
           <div class="sub-item">
-            <label for="user-email">Email:</label>
-            <input id="user-email" type="text" name="email" />
+            <input id="user-name" type="text" name="name" placeholder="name" />
           </div>
           <div class="sub-item">
-            <label for="user-message">Message:</label>
-            <textarea id="user-message" name="message"></textarea>
+            <input id="user-email" type="text" name="email" placeholder="email" />
           </div>
+          <div class="sub-item">
+            <textarea id="user-message" name="message" placeholder="message"></textarea>
+          </div>
+
           <button type="submit" class="glow-on-hover" id="submitbtn">
             Submit
           </button>
         </form>
-      </div>
     </section>
 
-    <footer>© 2020 Matt Dizzle Dev</footer>
+  </footer>
+  
   </body>
 </html>
