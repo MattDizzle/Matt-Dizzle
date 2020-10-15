@@ -1,86 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>Videos</title>
-    <link rel="shortcut icon" href="https://github.com/MattDizzle/favicon-host/blob/master/matt-dizzle-dev-logo.png?raw=true" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" /> 
+    <link
+      rel="shortcut icon"
+      href="https://github.com/MattDizzle/favicon-host/blob/master/matt-dizzle-dev-logo.png?raw=true"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="videos.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-   crossorigin="anonymous">
-   <link
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
     />
-   <script src="script.js"></script>
+    <script src="script.js"></script>
   </head>
 
-<body>
+  <body>
+    <!--SLIDE OUT MENU-->
+    <section id="mySidebar" class="sidebar">
+      <h5>Menu</h5>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="Home.html">Home</a>
+      <a href="graphics.html">Graphics</a>
+      <a href="videos.html">Videos</a>
+      <a href="coding.html">Coding</a>
+    </section>
 
-   <!--SLIDE OUT MENU-->
-   <section id="mySidebar" class="sidebar">
-    <h5>Menu</h5>
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-    <a href="Home.html" >Home</a>
-    <a href="graphics.html" >Graphics</a>
-    <a href="videos.html" >Videos</a>
-    <a href="coding.html" >Coding</a>
-  </section>
-  
-  <div id="box">
-    <button class="openbtn hamburger" onclick="openNav()">☰</button>
-  </div>
-  <!--HEADER-->
-  <header class="animate__animated animate__backInDown">
-    <h1>Matt Dizzle Dev</h1>    
-         
+    <div id="box">
+      <button class="openbtn hamburger" onclick="openNav()">☰</button>
+    </div>
+    <!--HEADER-->
+    <header class="animate__animated animate__backInDown">
+      <h1>Matt Dizzle Dev</h1>
+
       <nav class="navbar">
-      <ul class="menu">
-        <li><a href="Home.html" class= "glow-on-hover">Home</a></li>
-        <li><a href="graphics.html" class= "glow-on-hover">Graphics</a></li>
-        <li><a href="videos.html" class= "glow-on-hover">Videos</a></li>
-        <li><a href="coding.html" class= "glow-on-hover">Coding</a></li>
-      </ul>
+        <ul class="menu">
+          <li><a href="Home.html" class="glow-on-hover">Home</a></li>
+          <li><a href="graphics.html" class="glow-on-hover">Graphics</a></li>
+          <li><a href="videos.html" class="glow-on-hover">Videos</a></li>
+          <li><a href="coding.html" class="glow-on-hover">Coding</a></li>
+        </ul>
       </nav>
-  </header>
-   
-<main class="animate__animated animate__backInUp">
-  <section class= "video-box">
-    <h2>My First Projects</h2>
-  <iframe src="https://www.youtube.com/embed/YpXLswNsZqY"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </section>
+    </header>
 
-  <section class= "video-box">
-    <h2>My First Projects</h2>
-  <iframe src="https://www.youtube.com/embed/NRC3svop-Zw"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </section>
+    <main class="animate__animated animate__backInUp">
+      <section class="video-box">
+        <h2>Reactiv Solutions</h2>
+        <iframe
+          src="https://www.youtube.com/embed/YpXLswNsZqY"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
 
+      <section class="video-box">
+        <h2>My First Projects</h2>
+        <iframe
+          src="https://www.youtube.com/embed/NRC3svop-Zw"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
 
-  <section class= "video-box">
-    <h2> I'm Matt Dizzle </h2>
-  <iframe src="https://www.youtube.com/embed/lxHALqZlDMM"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </section>
+      <section class="video-box">
+        <h2>I'm Matt Dizzle</h2>
+        <iframe
+          src="https://www.youtube.com/embed/lxHALqZlDMM"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
 
-<section class= "video-box">
-  <h2>Cool Breeze Video</h2>
-<iframe src="https://www.youtube.com/embed/Lp8ZMgzqZCU"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</section>
-</main>
+      <section class="video-box">
+        <h2>Cool Breeze Video</h2>
+        <iframe
+          src="https://www.youtube.com/embed/Lp8ZMgzqZCU"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
 
-<!--CONTACT-->
-  <section class="item" id= "cont">
-    <h4 class = "header">Contact Info</h4>
-    <ol>
-      <li><a  href="https://www.linkedin.com/in/matt-dizzle/" class= "glow-on-hover" target="blank">LinkedIn</a></li>
-      <li><a  href="https://github.com/MattDizzle" class= "glow-on-hover" target="blank">GitHub</a></li>
-      <li><a  href="mailto:MatthewRougelySr@gmail.com" class= "glow-on-hover" target="blank">Email</a></li>
-    </ol>
+    <!--CONTACT-->
+    <section class="item" id="cont">
+      <h4 class="header">Contact Info</h4>
+      <ol>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/matt-dizzle/"
+            class="glow-on-hover"
+            target="blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/MattDizzle"
+            class="glow-on-hover"
+            target="blank"
+            >GitHub</a
+          >
+        </li>
+        <li>
+          <a
+            href="mailto:MatthewRougelySr@gmail.com"
+            class="glow-on-hover"
+            target="blank"
+            >Email</a
+          >
+        </li>
+      </ol>
       <footer>© 2020 Matt Dizzle Dev</footer>
-  </section>
-</body>
+    </section>
+  </body>
 </html>
