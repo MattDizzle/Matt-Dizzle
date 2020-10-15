@@ -108,6 +108,7 @@ p {
   color: white;
   padding: 10px;
   font-size: 1em;
+  text-align: left;
 }
 
 h4 {
@@ -131,11 +132,13 @@ li {
   justify-content: flex-start;
   align-items: center;
   margin: 10px;
-  padding: 20px;
+  padding: 50px;
   background: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.74)),
     url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);
   box-shadow: 0 8px 6px -6px white;
   border-radius: 15px;
+  height: 100%;
+  text-align: center;
 }
 
 .intro {
@@ -146,8 +149,8 @@ li {
 
 img {
   width: 100%;
-  border-radius: 8px;
-  padding: 0px;
+  border-radius: 10px;
+  padding: 20px;
   filter: contrast(130%);
   margin-top: 0;
   padding-top: 0;
@@ -375,8 +378,6 @@ form {
   border: none;
 }
 
-
-
 #box {
   transition: margin-left 0.5s;
   padding: 16px;
@@ -394,8 +395,6 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    box-shadow: 0 8px 6px -6px white;
-    border-radius: 10px;
     align-items: center;
   }
 
@@ -411,7 +410,6 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
     justify-content: space-evenly;
   }
 
@@ -420,13 +418,6 @@ form {
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
-  }
-
-  p {
-    color: white;
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 1.4em;
   }
 
   .glow-on-hover {
