@@ -229,6 +229,7 @@ main {
   justify-content: space-around;
   align-items: flex-start;
   padding: 20px;
+  width: 100%;
 }
 
 form {
@@ -238,8 +239,8 @@ form {
   justify-content: center;
   align-items: center;
   border-radius: 10%;
-  /* background: linear-gradient(#3b0239a4, #060053d8),
-    url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif); */
+  background: linear-gradient(#3b0239a4, #060053d8),
+    url(http://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif);
   border-radius: 15px;
   flex: 1;
 }
