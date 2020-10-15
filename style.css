@@ -165,8 +165,9 @@ img {
   padding: 20px;
 }
 
-p {
+.left-align {
   margin-top: 10px;
+  text-align: left;
 }
 
 ul, ol {
