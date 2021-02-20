@@ -42,6 +42,11 @@
         flex-direction: row;
         margin-top: 3vh;
     }
+
+    /* .contact-wrapper > #cont {
+        display: flex;
+        flex-direction: row;
+    } */
     
     .half {
         width: 49%;
